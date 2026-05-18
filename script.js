@@ -1,3 +1,4 @@
+
 const slider  =  document.querySelector(".slider");
 document.querySelector(".next").onclick = () => {
     slider.scrollBy({left : 300, behavior: "smooth"});
@@ -26,4 +27,5 @@ questions.forEach((q) => {
             icon.textContent = "×";
         }
     });
+
 });
