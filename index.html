@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <title>Netflix India - Watch Shows Online, Watch Movies Online.</title>
+    <link rel="icon" href="./asset/netflix-logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="banner">
+        <div class="content">
+            <h1 class="banner-title">Unlimited movies, TV <br> shows and more</h1>
+            <p class="banner-title-p">Starts at ₹149. Cancel anytime.</p>
+            <button class="button-center">Finish Sign-Up <i class="fa-solid fa-angle-right"></i></button>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="./asset/netflix-home-logo.png" alt="logo">
+                </div>
+                <div class="nav-right">
+                    <select name="lang" class="language">
+                        <option value="English"><i class="fa-solid fa-language">English</i></option>
+                        <option value="Hindi">Hindi</option>
+                    </select>
+                    <button class="sign-out">Sign Out</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Treading Now section -->
+    <!-- <section class="curve-section">
+
+  </section> -->
+    <section class="trending">
+        <svg class="curve" viewBox="5 30 1440 280" preserveAspectRatio="none"> <!--  start in left -->
+            <path d="M0,70 Q720,-2 1440,70" stroke="red" fill="transparent" stroke-width="7" />
+            <!--  curve in center and downwards towards left & right -->
+        </svg>
+
+        <h2>Treading Now</h2>
+        <div class="slider-container">
+            <button class="prev">❮</button>
+            <div class="slider">
+                <div class="card" data-number="1">
+                    <img src="./asset/photo1.jpg" alt="photo1">
+                </div>
+                <div class="card" data-number="2">
+                    <img src="./asset/photo2.jpg" alt="photo2">
+                </div>
+                <div class="card" data-number="3">
+                    <img src="./asset/photo3.jpg" alt="photo3">
+                </div>
+                <div class="card" data-number="4">
+                    <img src="./asset/photo4.jpg" alt="photo4">
+                </div>
+                <div class="card" data-number="5">
+                    <img src="./asset/photo5.jpg" alt="photo5">
+                </div>
+            </div>
+            <!-- <div class="slider">
+                 <div class="./asset/ph">6</div>
+                <div class="card1">7</div>
+                <div class="card1">8</div>
+                <div class="card1">9</div>
+                <div class="card1">10</div>
+                </div> -->
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <section class="reasons">
+        <h3>More Reasons to Join</h3>
+        <div class="cards">
+            <div class="card-reasons">
+                <h3>Enjoy on your TV</h3>
+                <p>Watch on Smart TVs,<br> Playstation, Xbox,<br> Chromecast, Apple TV,<br>
+                    Blu-ray players, and more.</p>
+                <div class="icon">
+                    <i class="fa-solid fa-tv"></i>
+                </div>
+            </div>
+            <div class="card-reasons">
+                <h3>Download your shows <br>to watch offline</h3>
+                <p>Save your favorites easily <br>
+                    and always have something <br> to watch.</p>
+                <div class="icon">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+            <div class="card-reasons">
+                <h3>Watch everywhere</h3>
+                <p>Stream unlimited movies and <br> TV shows on your phone,<br> tablet, laptop, and TV.</p>
+                <div class="icon">
+                    <i class="fa-solid fa-tower-broadcast"></i>
+                </div>
+
+            </div>
+            <div class="card-reasons">
+                <h3>Create profiles for kids</h3>
+                <p>Send kids on adventures with their <br> favorite characters in a <br>space made just for them —
+                    <br>free with your membership.</p>
+                <div class="icon">
+                    <i class="fa-solid fa-user-group"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="faq-section">
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <button class="faq-question">What is Netflix?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How much does Netflix cost?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+
+            <div class="faq-item">
+                <button class="faq-question">Where can I watch?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">How do I Cancel?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">What can I watch on Netflix?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-question">Is Netflix good for Kids?
+                    <span class="icon-plus">+</span></button>
+                <!-- <div class="faq-answer"> -->
+                <!-- <p>
+            Netflix is a streaming service that offers a wide variety of award-winning TV shows,
+             movies, anime, documentaries, and more on thousands of internet-connected devices.
+            You can watch as much as you want, whenever
+             you want without a single commercial – all for one low monthly price. 
+             There's always something new to discover and new TV shows and movies are added every week!
+        </p> -->
+
+                <!-- </div> -->
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <footer class="footer-section">
+
+        <div class="footer-button">
+            <button class="foot-button"> Finish Sign-Up <span>❯</span></button>
+        </div>
+
+        <div class="footer-p">
+            <p>Questions? Call <u> 000-800-919-1743</u></p>
+        </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-col">
+                <span class="">FAQ</span>
+                <span class="">Investor Relations</span>
+                <span class="">Privecy</span>
+                <span class="">Speed Test</span>
+            </div>
+
+            <div class="footer-col">
+                <span>FAQ</span>
+                <span>Investor Relations</span>
+                <span>Privecy</span>
+                <span>Speed Test</span>
+            </div>
+            <div class="footer-col">
+                <span>FAQ</span>
+                <span>Investor Relations</span>
+                <span>Privecy</span>
+                <span>Speed Test</span>
+            </div>
+            <div class="footer-col">
+                <span>FAQ</span>
+                <span>Investor Relations</span>
+                <span>Privecy</span>
+                <span>Speed Test</span>
+            </div>
+        </div>
+
+
+        <select name="lang" class="footer-language">
+            <option value="English"><i class="fa-solid fa-language">English</i></option>
+            <option value="Hindi">Hindi</option>
+        </select>
+        <div class="footer-netflix">
+        <p>Netflix India</p>
+         </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
